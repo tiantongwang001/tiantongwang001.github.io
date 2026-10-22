@@ -2,7 +2,7 @@
 
 Personal academic website for Tiantong Wang at Nanyang Technological University.
 
-Website: https://tiantongwang.com/
+Website: https://tiantongwang001.github.io/
 
 ## Files
 
@@ -12,7 +12,10 @@ Website: https://tiantongwang.com/
 - `profile.jpg`: original profile photograph.
 - `CV_WangTiantong.pdf`: current public CV, with personal telephone numbers removed and the academic email retained. Keep this filename when updating so existing links continue to work.
 - `favicon.svg`: site icon.
-- `CNAME`: existing custom domain configuration.
+
+## Hosting
+
+Use the default GitHub Pages address above. The repository intentionally has no `CNAME` file, and **Settings → Pages → Custom domain** should be empty. Adding a custom domain can redirect the default `github.io` address away from this site.
 
 ## Updating the site
 
@@ -22,7 +25,7 @@ For each publication, preserve the full title, author order, venue, year, and of
 
 Replace `CV_WangTiantong.pdf` with the latest CV and update the footer's last-updated month. When changing `style.css`, update the stylesheet version query in `index.html` so returning visitors receive the new styles.
 
-The October 2026 content update follows the supplied CV. Research directions are concise summaries of its publication topics. The academic layout uses a profile sidebar and a separate reading column, with papers grouped by year. All publication content and citation panels remain usable without JavaScript. The original profile photograph, Chinese name, PhD-candidate designation, and custom domain are retained from the existing site.
+The October 2026 content update follows the supplied CV. Research directions are concise summaries of its publication topics. The academic layout uses a profile sidebar and a separate reading column, with papers grouped by year. All publication content and citation panels remain usable without JavaScript. The original profile photograph, Chinese name, and PhD-candidate designation are retained from the existing site.
 
 ## Preview
 
